@@ -19,8 +19,28 @@
                         padding: 1rem 3rem;
                     }
                     </style>
+                    <!-- Bootstrap icon starts here-->            
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    </head>
+                    <!-- Bootstrap icon cdn-->
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+                    <!-- Cdn link ends here-->
+                    <!-- Bootstrap link ends here-->
+      </head>
+      <style>
+        .container{
+          height: 80vh;
+          background-color: black;
+          color: white;
+        }
+        .container> h4{
+          margin-top: 1rem;
+          text-align: center;
+          padding: 1rem;
+        }
+        .contact{
+          font-style: italic;
+        }
+      </style>
     <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -53,10 +73,43 @@
               </nav>
         </header>
         <main>
+          <div class="container">
+            <h4 class="contact">Contact Me</h4>
+            <div id="contact_row" class="row">
+              
+              <div class="col">
+                <p><i class="bi bi-house-door-fill"></i><address>637 Odim Street</address></p>
+                
+                <p><i class="bi bi-telephone-fill"></i>07042592440</p>
 
+                <p><i class="bi bi-envelope"></i>somtoibeakanma@gmail.com</p>
+
+                <div>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                </div>
+              </div>
+              <div class="col">
+                <p>Send me a message</p>
+                <form action="">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" placeholder="Name">
+
+                  <label for="email">Email</label>
+                  <input type="email" id="name" placeholder="Email"><hr><hr>
+
+                  <label for="message">Message</label><hr>
+                  <textarea name="" id="" cols="58" rows="3"></textarea>
+
+                  <button class="btn btn-primary"></button>
+                </form>
+              </div>
+            </div>
+          </div>
+          
         </main>
         <footer>
-
+          <p>Designed By Somy</p>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
